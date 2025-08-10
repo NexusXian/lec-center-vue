@@ -63,7 +63,7 @@
 import { ref, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import axios from 'axios'
-import { baseURL } from '../../config' // 确保你的 baseURL 配置正确
+import {baseURL, imgURL} from '../../config' // 确保你的 baseURL 配置正确
 import { ElMessage } from 'element-plus'
 
 // 类型定义
@@ -116,7 +116,7 @@ function getImageUrl(imgPath: string) {
     return imgPath
   }
   // 拼接baseURL和图片路径
-  return `${baseURL}${imgPath}`
+  return `${imgURL}${imgPath}`
 }
 
 // 获取当日打卡记录

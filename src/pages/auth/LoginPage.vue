@@ -41,6 +41,7 @@ import { useUserInfoStore } from '../../store/userInfoStore.ts'
 import { ElMessage } from 'element-plus'
 import router from '../../routers'
 import axios from "axios"
+import {baseURL} from "../../config";
 
 const userStore = useUserInfoStore()
 
@@ -73,7 +74,7 @@ async function login() {
       password: currentPassword
     }
 
-    const res = await axios.post('http://localhost:8080/user/login', requestBody, {
+    const res = await axios.post(baseURL + '/user/login', requestBody, {
       headers: {
         'Content-Type': 'application/json'
       }

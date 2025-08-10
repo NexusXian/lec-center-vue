@@ -67,7 +67,7 @@
 <script lang="ts" setup>
 import { ref, onMounted } from 'vue'
 import axios from 'axios'
-import { baseURL } from "../../config";
+import {baseURL, imgURL} from "../../config";
 import {useRouter} from "vue-router";
 const router = useRouter()
 // --- 接口定义 ---
@@ -113,7 +113,7 @@ const getAvatarUrl = (path: string) => {
   if (!path || path.startsWith('http')) {
     return path || 'https://placehold.co/50x50/cccccc/ffffff?text=No+Img';
   }
-  return `${baseURL}${path}`
+  return `${imgURL}${path}`
 }
 
 // --- API 请求 ---

@@ -44,7 +44,7 @@ import { computed, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { useUserInfoStore } from "../../store/userInfoStore.ts"
 import { ElMessage } from 'element-plus'
-import { baseURL } from "../../config"
+import {imgURL} from "../../config"
 
 const router = useRouter()
 const userStore = useUserInfoStore()
@@ -58,8 +58,8 @@ const currentUserName = computed(() => userStore.userInfo?.username || '未登�
 // 用户头像
 const userAvatar = computed(() => {
   return userStore.userInfo?.avatar
-      ? baseURL + userStore.userInfo.avatar
-      : "https://avatars.githubusercontent.com/u/106912574?v=4"
+      ? imgURL + userStore.userInfo.avatar
+      : "https://placehold.co/50x50/cccccc/ffffff?text=No+Img"
 })
 
 // 用户角色

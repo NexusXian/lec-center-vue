@@ -62,7 +62,7 @@
 import { ref, onMounted, computed } from 'vue'
 import { useRoute } from 'vue-router'
 import axios from 'axios'
-import { baseURL } from '../../config' // Ensure your baseURL is correctly imported
+import {baseURL, imgURL} from '../../config' // Ensure your baseURL is correctly imported
 // Get route parameters
 const route = useRoute()
 const noticeId = route.params.id as string // Get the ID from the URL
@@ -84,7 +84,7 @@ const errorMsg = ref('')
 // Computed property for full avatar URL (baseURL + avatar)
 const avatarUrl = computed(() => {
   return noticeDetail.value.avatar
-      ? `${baseURL}${noticeDetail.value.avatar}`
+      ? `${imgURL}${noticeDetail.value.avatar}`
       : ''
 })
 // Fallback text for avatar if image fails to load

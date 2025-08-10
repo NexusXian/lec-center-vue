@@ -95,11 +95,11 @@ import { ElMessage, type UploadFile, type UploadRawFile } from 'element-plus'
 import { useUserInfoStore } from '../../../store/userInfoStore.ts'
 import axios from 'axios'
 import { Check, Back, Plus, Camera } from '@element-plus/icons-vue'
-import {baseURL} from "../../../config";
+import {baseURL, imgURL} from "../../../config";
 const userInfoStore = useUserInfoStore()
 const userInfo = computed(() => userInfoStore.userInfo)
 const currentAvatarUrl = computed(() => {
-  return userInfo.value.avatar ? `${baseURL}${userInfo.value.avatar}` : ''
+  return userInfo.value.avatar ? `${imgURL}${userInfo.value.avatar}` : ''
 })
 
 const formRef = ref()

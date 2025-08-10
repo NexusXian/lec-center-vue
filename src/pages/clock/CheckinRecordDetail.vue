@@ -51,7 +51,7 @@
           <h3 class="section-title">签到图片</h3>
           <div class="image-container">
             <el-image
-                :src="`${baseURL}${record.img}`"
+                :src="`${imgURL}${record.img}`"
                 :alt="`${record.username}的签到图片`"
                 fit="contain"
                 class="checkin-image"
@@ -84,7 +84,7 @@
 import { ref, onMounted } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import axios from 'axios'
-import { baseURL } from '../../config' // Ensure baseURL is correctly imported
+import {baseURL, imgURL} from '../../config' // Ensure baseURL is correctly imported
 import { ElMessage } from 'element-plus'
 
 // 签到记录数据结构

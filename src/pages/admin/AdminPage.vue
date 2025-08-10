@@ -236,7 +236,7 @@ import axios from 'axios'
 import { ElMessageBox, ElMessage } from 'element-plus'
 import { Delete, Edit } from '@element-plus/icons-vue'  // 新增导入Calendar图标
 import type { DrawerProps } from 'element-plus'
-import { baseURL } from "../../config";
+import {baseURL, imgURL} from "../../config";
 import {useRouter} from "vue-router";
 const router = useRouter();
 
@@ -298,7 +298,7 @@ const getAvatarUrl = (path: string) => {
   if (!path || path.startsWith('http')) {
     return path || 'https://placehold.co/50x50/cccccc/ffffff?text=No+Img'
   }
-  return `${baseURL}${path}`
+  return `${imgURL}${path}`
 }
 
 // 抽屉操作

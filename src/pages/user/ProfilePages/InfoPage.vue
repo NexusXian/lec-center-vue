@@ -61,7 +61,7 @@ import { computed } from 'vue';
 import { useRouter } from 'vue-router';
 import { useUserInfoStore } from '../../../store/userInfoStore.ts';
 import { Camera, Lock, Back, ArrowRight } from '@element-plus/icons-vue';
-import {baseURL} from "../../../config";
+import {imgURL} from "../../../config";
 
 const router = useRouter();
 const userStore = useUserInfoStore();
@@ -77,7 +77,7 @@ const userRole = computed(() => {
 })
 
 const userAvatar = computed(() => {
-  return userStore.userInfo?.avatar ? baseURL + userStore.userInfo.avatar : "src/assets/icon/noneAvatar.svg";
+  return userStore.userInfo?.avatar ? imgURL + userStore.userInfo.avatar : "src/assets/icon/noneAvatar.svg";
 });
 
 const goToUpdateAvatar = () => {

@@ -58,7 +58,7 @@
         <br>
         <div id="PI">
           <a
-              href="https://github.com/NexusXian?tab=repositories"
+              href="https://github.com/NexusXian/lec-center-vue"
               target="_blank"
               class="github-link"
               title="前往 GitHub 主页"

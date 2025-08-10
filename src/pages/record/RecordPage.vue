@@ -231,9 +231,7 @@ function exportDayData(date: string) {
       }
   ).then(async () => {
     try {
-      // 确保传递给后端的 date 参数是 'YYYY/MM/DD' 格式，与后端 time.Parse("2006/01/02", dateStr) 匹配
-      // 这里的 `date` 参数本身就来自于 `groupedAttendances` 的 key，而我们在 `groupAttendancesByDate` 中已确保其格式为 `YYYY/MM/DD`。
-      const res = await axios.get(`${baseURL}/api/export`, {
+      const res = await axios.get(`${baseURL}/export`, {
         params: { date: date },
         responseType: 'blob' // 必须是 blob 类型才能正确处理文件下载
       })

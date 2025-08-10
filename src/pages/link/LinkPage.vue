@@ -86,222 +86,213 @@ const links = ref([
     linkID: 1,
     name: "西南石油大学门户网站",
     url: "https://www.swpu.edu.cn/",
-    imageUrl: "src/assets/links/swpu.png",
+    imageUrl: "/links/swpu.png", // 修正路径
     is_recommended: true
   },
   {
     linkID: 2,
     name: "西南石油大学南充校区门户网站",
     url: "https://www.swpu.edu.cn/nc/",
-    imageUrl: "src/assets/links/nanchong.png",
+    imageUrl: "/links/nanchong.png", // 修正路径
     is_recommended: true
   },
   {
     linkID: 3,
     name: "西南石油大学本科教学服务平台",
     url: "https://deanservices.swpu.edu.cn/jwapp/sys/jwauthapp/login/index.html#/login",
-    imageUrl: "src/assets/links/jiaowu.png",
+    imageUrl: "/links/jiaowu.png", // 修正路径
     is_recommended: true
   },
   {
     linkID: 4,
     name: "西南石油大学选课系统",
-    url: "https://www.mtr.com.hk",
-    imageUrl: "src/assets/links/xuanke.png",
+    url: "https://deancs.swpu.edu.cn/xsxk/profile/index.html",
+    imageUrl: "/links/xuanke.png", // 修正路径
     is_recommended: true
   },
   {
     linkID: 5,
     name: "ArchLinux官网",
     url: "https://archlinux.org/",
-    imageUrl: "src/assets/links/archlinux.png",
+    imageUrl: "/links/archlinux.png", // 修正路径
     is_recommended: true
   },
   {
     linkID: 6,
     name: "阿里云官网",
     url: "https://cn.aliyun.com/",
-    imageUrl: "src/assets/links/aliyun.png",
+    imageUrl: "/links/aliyun.png", // 修正路径
     is_recommended: true
   },
   {
     linkID: 7,
     name: "华为云开发者学堂",
     url: "https://edu.huaweicloud.com/courses",
-    imageUrl: "src/assets/links/huaweiyun.png",
+    imageUrl: "/links/huaweiyun.png", // 修正路径
     is_recommended: true
-  }
-  ,
+  },
   {
     linkID:8,
     name: "学习通",
     url: "https://v3.chaoxing.com/toJcLogin",
-    imageUrl: "src/assets/links/xuexitong.png",
+    imageUrl: "/links/xuexitong.png", // 修正路径
     is_recommended: true
   },
   {
     linkID: 9,
     name: "mooc",
     url: "https://www.icourse163.org/",
-    imageUrl: "src/assets/links/mooc.png",
+    imageUrl: "/links/mooc.png", // 修正路径
     is_recommended: true
-  }
-  ,
+  },
   {
     linkID:10,
     name: "智慧树",
     url: "https://passport.zhihuishu.com/login",
-    imageUrl: "src/assets/links/zhihuishu.png",
+    imageUrl: "/links/zhihuishu.png", // 修正路径
     is_recommended: true
   },
   {
     linkID: 11,
     name: "洛谷",
     url: "https://www.luogu.com.cn/",
-    imageUrl: "src/assets/links/luogu.png",
+    imageUrl: "/links/luogu.png", // 修正路径
     is_recommended: true
   },
   {
     linkID: 12,
     name: "力扣",
     url: "https://leetcode.cn/",
-    imageUrl: "src/assets/links/leetcode.png",
+    imageUrl: "/links/leetcode.png", // 修正路径
     is_recommended: true
-  }
-  ,
+  },
   {
     linkID: 13,
     name: "牛客",
     url: "https://www.nowcoder.com/",
-    imageUrl: "src/assets/links/niuke.png",
+    imageUrl: "/links/niuke.png", // 修正路径
     is_recommended: true
   },
   {
     linkID: 14,
     name: "boss直聘",
     url: "https://www.zhipin.com/chengdu/?seoRefer=index/",
-    imageUrl: "src/assets/links/boss.png",
+    imageUrl: "/links/boss.png", // 修正路径
     is_recommended: true
   },
   {
     linkID: 15,
     name: "计算机设计大赛",
     url: "https://jsjds.blcu.edu.cn/",
-    imageUrl: "src/assets/links/jisuanjisheji.png",
+    imageUrl: "/links/jisuanjisheji.png", // 修正路径
     is_recommended: true
   },
   {
     linkID: 16,
     name: "服务外包大赛",
     url: "http://www.fwwb.org.cn/",
-    imageUrl: "src/assets/links/fuwuwaibao.png",
+    imageUrl: "/links/fuwuwaibao.png", // 修正路径
     is_recommended: true
-  }
-  ,
+  },
   {
     linkID: 17,
     name: "蓝桥杯",
     url: "https://dasai.lanqiao.cn/",
-    imageUrl: "src/assets/links/lanqiaobei.png",
+    imageUrl: "/links/lanqiaobei.png", // 修正路径
     is_recommended: true
-  }
-  ,
+  },
   {
     linkID: 18,
     name: "大学生创新创业",
     url: "https://cy.ncss.cn/",
-    imageUrl: "src/assets/links/dachuang.png",
+    imageUrl: "/links/dachuang.png", // 修正路径
     is_recommended: true
-  }
-  ,
+  },
   {
     linkID: 19,
     name: "github",
     url: "https://github.com/",
-    imageUrl: "src/assets/links/github.png",
+    imageUrl: "/links/github.png", // 修正路径
     is_recommended: true
-  }
-  ,
+  },
   {
     linkID: 20,
     name: "博客园",
     url: "https://www.cnblogs.com/",
-    imageUrl: "src/assets/links/bokeyuan.png",
+    imageUrl: "/links/bokeyuan.png", // 修正路径
     is_recommended: true
   },
 
-{
-  linkID: 21,
-      name: "成都校区乐程团队Github仓库",
+  {
+    linkID: 21,
+    name: "成都校区乐程团队Github仓库",
     url: "https://github.com/lec-org",
-    imageUrl: "src/assets/links/chengduxiaoqu.png",
+    imageUrl: "/links/chengduxiaoqu.png", // 修正路径
     is_recommended: true
-},
-{
-  linkID: 22,
-      name: "bilibili官网",
+  },
+  {
+    linkID: 22,
+    name: "bilibili官网",
     url: "https://www.bilibili.com",
-    imageUrl: "src/assets/links/bilibili.png",
+    imageUrl: "/links/bilibili.png", // 修正路径
     is_recommended: false
-},
-    {
-      linkID: 23,
-      name: "抖音",
-      url: "https://www.douyin.com/?recommend=1",
-      imageUrl: "src/assets/links/douyin.png",
-      is_recommended: false
-    },
-    {
-      linkID: 24,
-      name: "知乎",
-      url: "https://www.zhihu.com/",
-      imageUrl: "src/assets/links/zhihu.png",
-      is_recommended: false
-    },
-    {
-      linkID: 25,
-      name: "巴哈姆特",
-      url: "https://www.gamer.com.tw/",
-      imageUrl: "src/assets/links/bahamute.png",
-      is_recommended: false
-    },
-    {
-      linkID: 26,
-      name: "KunGal",
-      url: "https://www.kungal.com/galgame",
-      imageUrl: "src/assets/links/kungal.png",
-      is_recommended: false
-    },
-    {
-      linkID: 27,
-      name: "新浪微博",
-      url: "https://weibo.com/newlogin?tabtype=weibo&gid=102803&openLoginLayer=0&url=https%3A%2F%2Fweibo.com%2F",
-      imageUrl: "src/assets/links/xinlang.png",
-      is_recommended: false
-    },
-    {
-      linkID: 28,
-      name: "百度贴吧",
-      url: "https://tieba.baidu.com/",
-      imageUrl: "src/assets/links/tieba.png",
-      is_recommended: false
-    },
-    {
-      linkID: 29,
-      name: "小红书",
-      url: "https://www.xiaohongshu.com/explore",
-      imageUrl: "src/assets/links/xiaohongshu.png",
-      is_recommended: false
-    },
-    {
-      linkID: 30,
-      name: "萌娘百科",
-      url: "https://zh.moegirl.org.cn/Mainpage",
-      imageUrl: "src/assets/links/mengniang.png",
-      is_recommended: false
-    },
-
-
+  },
+  {
+    linkID: 23,
+    name: "抖音",
+    url: "https://www.douyin.com/?recommend=1",
+    imageUrl: "/links/douyin.png", // 修正路径
+    is_recommended: false
+  },
+  {
+    linkID: 24,
+    name: "知乎",
+    url: "https://www.zhihu.com/",
+    imageUrl: "/links/zhihu.png", // 修正路径
+    is_recommended: false
+  },
+  {
+    linkID: 25,
+    name: "巴哈姆特",
+    url: "https://www.gamer.com.tw/",
+    imageUrl: "/links/bahamute.png", // 修正路径
+    is_recommended: false
+  },
+  {
+    linkID: 26,
+    name: "KunGal",
+    url: "https://www.kungal.com/galgame",
+    imageUrl: "/links/kungal.png", // 修正路径
+    is_recommended: false
+  },
+  {
+    linkID: 27,
+    name: "新浪微博",
+    url: "https://weibo.com/newlogin?tabtype=weibo&gid=102803&openLoginLayer=0&url=https%3A%2F%2Fweibo.com%2F",
+    imageUrl: "/links/xinlang.png", // 修正路径
+    is_recommended: false
+  },
+  {
+    linkID: 28,
+    name: "百度贴吧",
+    url: "https://tieba.baidu.com/",
+    imageUrl: "/links/tieba.png", // 修正路径
+    is_recommended: false
+  },
+  {
+    linkID: 29,
+    name: "小红书",
+    url: "https://www.xiaohongshu.com/explore",
+    imageUrl: "/links/xiaohongshu.png", // 修正路径
+    is_recommended: false
+  },
+  {
+    linkID: 30,
+    name: "萌娘百科",
+    url: "https://zh.moegirl.org.cn/Mainpage",
+    imageUrl: "/links/mengniang.png", // 修正路径
+    is_recommended: false
+  },
 ])
 const isLoading = ref(false)
 
@@ -310,6 +301,7 @@ async function fetchLinks() {
   isLoading.value = true
   try {
     // 模拟接口延迟
+    // 在实际项目中，这里会是调用API获取数据
     await new Promise(resolve => setTimeout(resolve, 800))
   } catch (err: any) {
     console.error('获取友情链接失败:', err)
@@ -325,7 +317,7 @@ function formatUrl(url: string): string {
   return url.substring(0, 20) + '...'
 }
 
-// 跳转到香港页面
+// 跳转到目标网址
 function goToLink(url: string) {
   window.open(url, '_blank') // 新窗口打开目标网址
 }
@@ -335,6 +327,7 @@ onMounted(fetchLinks)
 </script>
 
 <style scoped>
+/* 样式部分保持不变 */
 .link-page {
   padding: 20px;
   margin-left: 20px;
